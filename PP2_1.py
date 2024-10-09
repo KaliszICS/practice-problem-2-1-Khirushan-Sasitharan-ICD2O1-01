@@ -1,7 +1,7 @@
 
 
 def q1(): 
-  num = int(input("Enter an integer: "))
+  num = int(input("In: "))
   if num%2 == 0 :
 
     print(f"{num} is even")
@@ -10,7 +10,7 @@ def q1():
     print(f"{num} is odd")
 
 def q2(): 
-  skib = (input("Enter a name: "))
+  skib = (input("In: "))
   if skib == "Kalisz" :
 
     print("teacher")
@@ -23,5 +23,5 @@ def q2():
 #Do not alter the following code
 #Comment out the following code when running your tests
 
-q1()
-q2()
+#q1()
+#q2()
